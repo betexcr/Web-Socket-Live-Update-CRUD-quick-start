@@ -39,7 +39,7 @@ const DataTable: React.FC<DataTableProps> = ({
         </tr>
       </thead>
       <tbody>
-        {data.map((row) => (
+        {data && data.map((row) => (
           <tr key={row.id}>
             <td>
               <input
